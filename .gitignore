@@ -1,0 +1,33 @@
+# --- DATASET Y BINARIOS (IMPORTANTE) ---
+data/
+datasets/
+NEU-DET/
+*.zip
+*.rar
+*.7z
+
+# --- ENTORNOS VIRTUALES ---
+venv/
+env/
+.env
+anaconda/
+bin/
+lib/
+
+# --- PYTHON ---
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# --- RESULTADOS DE ENTRENAMIENTO (YOLO/PyTorch) ---
+runs/
+models/*.pth
+models/*.pt
+weights/
+*.onnx
+
+# --- IDEs ---
+.vscode/
+.idea/
+.DS_Store

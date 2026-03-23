@@ -1,6 +1,7 @@
 path: 'C:/Users/Usuario/Desktop/TFM_NEU/data'
 train: 'train/images'
 val: 'val/images'
+test: 'test/images' 
 
 nc: 6
 names:
